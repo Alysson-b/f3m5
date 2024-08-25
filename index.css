@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(120deg, #1fbcfa, #25f3258f);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;  
+
+    & h2{
+        font-size: 28px;
+    }
+
+    & input{    
+       width: 100%;
+       padding: 16px;
+       border-radius: 20px;
+    }
+
+    & button{
+        padding: 15px 30px;
+        border-radius: 28px;
+        border: none;
+        background: rgb(16, 151, 241);
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+}
+
+.mostra p{
+    font-size: 30px;
+}
